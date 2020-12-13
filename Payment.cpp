@@ -4,11 +4,26 @@
 
 #include "Payment.h"
 
+Payment::Payment() {
+    sum = 0.0;
+    payer_org = "corp";
+    payer_account = "00000000000000000000";
+    payee_org = "corporation";
+    payee_account = "11111111111111111111";
+}
+
 Payment::Payment(float sum, const std::string &payerAccount, const std::string &payerOrg,
                  const std::string &payeeAccount, const std::string &payeeOrg) : sum(sum), payer_account(payerAccount),
                                                                                  payer_org(payerOrg),
                                                                                  payee_account(payeeAccount),
                                                                                  payee_org(payeeOrg) {}
+Payment::Payment(const Payment &another_payment) {
+    sum = another_payment.sum ;
+    payee_org = another_payment.payee_org;
+    payee_account = another_payment.payee_account;
+    payer_org = another_payment.payer_org;
+    payer_account = another_payment.payer_account;
+}
 
 float Payment::getSum() const {
     return sum;
