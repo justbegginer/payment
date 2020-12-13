@@ -3,4 +3,4 @@ project(payment)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(payment main.cpp Array.cpp Array.h)
+add_executable(payment main.cpp Array.h Payment.cpp Payment.h)
