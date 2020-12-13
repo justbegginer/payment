@@ -55,10 +55,21 @@ public:
 
     bool operator>=(const Payment &rhs) const;
 
+    Payment operator+(int rhs);
+
+    Payment operator-(int rhs);
+
+    friend Payment operator+(Payment payment ,float rhs);
+
+    friend Payment operator-(Payment payment ,float rhs);
+
     friend std::ostream &operator<<(std::ostream &os, const Payment &payment);
 
     friend std::istream &operator>>(std::istream &input, Payment &payment);
+
     ~Payment();
+
+
 };
 
 

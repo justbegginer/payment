@@ -94,4 +94,28 @@ std::istream &operator>>(std::istream &input, Payment &payment) {
     payment.sum = std::stof(sum);
 }
 
+Payment Payment::operator+(int rhs) {
+    Payment new_payment = Payment(*(this));
+    new_payment.setSum(new_payment.getSum() + rhs);
+    return new_payment;
+}
+
+Payment Payment::operator-(int rhs) {
+    Payment new_payment = Payment(*(this));
+    new_payment.setSum(new_payment.getSum() - rhs);
+    return new_payment;
+}
+
+Payment operator+(Payment payment, float rhs) {
+    Payment new_payment = Payment(payment);
+    new_payment.setSum(new_payment.getSum() + rhs);
+    return new_payment;
+}
+
+Payment operator-(Payment payment, float rhs) {
+    Payment new_payment = Payment(payment);
+    new_payment.setSum(new_payment.getSum() - rhs);
+    return new_payment;
+}
+
 
