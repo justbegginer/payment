@@ -54,11 +54,15 @@ T &Array<T>::operator[](int index) {
 
 template<typename T>
 void Array<T>::make_bigger() {
-    T *new_array = new T[1+length];
+    T *new_array = new T[length];
     for (int i = 0; i < length; ++i) {
         *(new_array + i) = *(array+i);
     }
-    array = new_array;
+    array = new T[length+1];
+    for (int i = 0; i < length; ++i) {
+        *(array+i) = *(new_array+i);
+    }
+    delete [] new_array;
     length++;
 }
 
