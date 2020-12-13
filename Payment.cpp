@@ -53,3 +53,45 @@ void Payment::setPayeeOrg(const std::string &payeeOrg) {
 Payment::~Payment() {
 
 }
+
+bool Payment::operator==(const Payment &rhs) const {
+    return sum == rhs.sum &&
+           payer_account == rhs.payer_account &&
+           payer_org == rhs.payer_org &&
+           payee_account == rhs.payee_account &&
+           payee_org == rhs.payee_org;
+}
+
+bool Payment::operator!=(const Payment &rhs) const {
+    return !(rhs == *this);
+}
+
+bool Payment::operator<(const Payment &rhs) const {
+    return this->sum < rhs.sum;
+}
+
+bool Payment::operator>(const Payment &rhs) const {
+    return this->sum > rhs.sum;
+}
+
+bool Payment::operator<=(const Payment &rhs) const {
+    return *this < rhs || *this == rhs;
+}
+
+bool Payment::operator>=(const Payment &rhs) const {
+    return *this > rhs || *this == rhs;
+}
+
+std::ostream &operator<<(std::ostream &os, const Payment &payment) {
+    os << "sum: " << payment.sum << " payer_account: " << payment.payer_account << " payer_org: " << payment.payer_org
+       << " payee_account: " << payment.payee_account << " payee_org: " << payment.payee_org;
+    return os;
+}
+
+std::istream &operator>>(std::istream &input, Payment &payment) {
+    std::string sum = std::to_string(payment.sum);
+    input >>sum  >> payment.payee_account >> payment.payee_org >> payment.payer_account >> payment.payee_org ;
+    payment.sum = std::stof(sum);
+}
+
+
