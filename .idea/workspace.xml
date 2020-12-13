@@ -12,9 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7788822-70b4-4482-9526-d354a91da806" name="Default Changelist" comment="add equality , relaton">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Array.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Array.h" beforeDir="false" afterPath="$PROJECT_DIR$/Array.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Payment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Payment.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment.h" beforeDir="false" afterPath="$PROJECT_DIR$/Payment.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +45,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="payment" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="payment" TARGET_NAME="payment" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="payment" RUN_TARGET_NAME="payment">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -68,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607849769402</updated>
       <workItem from="1607849770921" duration="484000" />
-      <workItem from="1607850295108" duration="6206000" />
+      <workItem from="1607850295108" duration="6940000" />
+      <workItem from="1607864656214" duration="7585000" />
     </task>
     <task id="LOCAL-00001" summary="make Array class">
       <created>1607850786208</created>
@@ -119,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607858813551</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="make realisation of base and copy constructors for Payment class">
+      <created>1607859215288</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607859215288</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change make bigger method">
+      <created>1607859285342</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607859285342</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,21 +145,23 @@
     <MESSAGE value="add equality , relational , &gt;&gt; and &lt;&lt; operators" />
     <MESSAGE value="add realisation for equality , relational , &gt;&gt; and &lt;&lt; operators" />
     <MESSAGE value="add operator+ , - for int and float arguments" />
-    <option name="LAST_COMMIT_MESSAGE" value="add operator+ , - for int and float arguments" />
+    <MESSAGE value="make realisation of base and copy constructors for Payment class" />
+    <MESSAGE value="change make bigger method" />
+    <option name="LAST_COMMIT_MESSAGE" value="change make bigger method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="731" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607850747469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607850747469" />
-    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1607854122088">
+    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1607865759866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607854122088" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1607858812997">
+    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607865759866" />
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1607859284840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607858812997" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607859284840" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1607854867019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -160,37 +174,57 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607850624228" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607858023373">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1607873169303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607858023373" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607858023373">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1607873169303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607858023373" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607858023373">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1607873169303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607858023373" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607858023373">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1607873169303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607858023373" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607851866493">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607873169303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607851866493" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607851866493">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607873169303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607851866493" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607851866493">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607873169303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607851866493" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607851866493">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607873169303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607851866493" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607859799537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607859799537" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Array.h</url>
+          <line>50</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

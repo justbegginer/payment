@@ -17,8 +17,9 @@ Payment::Payment(float sum, const std::string &payerAccount, const std::string &
                                                                                  payer_org(payerOrg),
                                                                                  payee_account(payeeAccount),
                                                                                  payee_org(payeeOrg) {}
+
 Payment::Payment(const Payment &another_payment) {
-    sum = another_payment.sum ;
+    sum = another_payment.sum;
     payee_org = another_payment.payee_org;
     payee_account = another_payment.payee_account;
     payer_org = another_payment.payer_org;
@@ -105,7 +106,7 @@ std::ostream &operator<<(std::ostream &os, const Payment &payment) {
 
 std::istream &operator>>(std::istream &input, Payment &payment) {
     std::string sum = std::to_string(payment.sum);
-    input >>sum  >> payment.payee_account >> payment.payee_org >> payment.payer_account >> payment.payee_org ;
+    input >> sum >> payment.payee_account >> payment.payee_org >> payment.payer_account >> payment.payee_org;
     payment.sum = std::stof(sum);
 }
 
@@ -130,6 +131,36 @@ Payment operator+(Payment payment, float rhs) {
 Payment operator-(Payment payment, float rhs) {
     Payment new_payment = Payment(payment);
     new_payment.setSum(new_payment.getSum() - rhs);
+    return new_payment;
+}
+
+Payment Payment::operator=(Payment payment) {
+    sum = payment.sum;
+    payer_account = payment.payer_account;
+    payer_org = payment.payer_org;
+    payee_account = payment.payee_account;
+    payee_org = payment.payee_org;
+}
+
+Payment &Payment::operator++() {
+    *this = *this + 1;
+    return *this;
+}
+
+Payment &Payment::operator--() {
+    *this = *this - 1;
+    return *this;
+}
+
+Payment operator++(Payment payment, int) {
+    Payment new_payment = Payment(payment);
+    payment = payment + 1;
+    return new_payment;
+}
+
+Payment operator--(Payment payment, int) {
+    Payment new_payment = Payment(payment);
+    payment = payment - 1;
     return new_payment;
 }
 

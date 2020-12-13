@@ -59,13 +59,23 @@ public:
 
     Payment operator-(int rhs);
 
-    friend Payment operator+(Payment payment ,float rhs);
+    friend Payment operator+(Payment payment, float rhs);
 
-    friend Payment operator-(Payment payment ,float rhs);
+    friend Payment operator-(Payment payment, float rhs);
 
     friend std::ostream &operator<<(std::ostream &os, const Payment &payment);
 
     friend std::istream &operator>>(std::istream &input, Payment &payment);
+
+    Payment operator=(Payment payment);
+
+    Payment &operator++(); // префикс версия
+
+    Payment &operator--(); // префикс версия
+
+    friend Payment operator++(Payment payment, int); // постфикс версия
+
+    friend Payment operator--(Payment payment, int); // постфикс версия
 
     ~Payment();
 
