@@ -11,11 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7788822-70b4-4482-9526-d354a91da806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Payment.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Payment.h" afterDir="false" />
+    <list default="true" id="a7788822-70b4-4482-9526-d354a91da806" name="Default Changelist" comment="add equillity , cop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Payment.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment.h" beforeDir="false" afterPath="$PROJECT_DIR$/Payment.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607849769402</updated>
       <workItem from="1607849770921" duration="484000" />
-      <workItem from="1607850295108" duration="2365000" />
+      <workItem from="1607850295108" duration="4302000" />
     </task>
     <task id="LOCAL-00001" summary="make Array class">
       <created>1607850786208</created>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607852659078</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add payment class with constructors , destructor , getters and setter">
+      <created>1607852704902</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607852704902</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,21 +109,22 @@
     <MESSAGE value="make Array class" />
     <MESSAGE value="make Array class like template" />
     <MESSAGE value="template class realised and work correct" />
-    <option name="LAST_COMMIT_MESSAGE" value="template class realised and work correct" />
+    <MESSAGE value="Add payment class with constructors , destructor , getters and setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add payment class with constructors , destructor , getters and setter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="731" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607850747469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607850747469" />
-    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1607852546823">
+    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1607854122088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607852546823" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1607852658551">
+    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607854122088" />
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1607854767060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607852658551" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607854767060" />
     <state x="838" y="417" key="Github.ShareDialog" timestamp="1607850616743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

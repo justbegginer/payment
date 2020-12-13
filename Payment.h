@@ -2,6 +2,7 @@
 // Created by user.v2.0 on 13.12.2020.
 //
 #include <string>
+#include <ostream>
 
 #ifndef PAYMENT_PAYMENT_H
 #define PAYMENT_PAYMENT_H
@@ -42,6 +43,21 @@ public:
 
     void setPayeeOrg(const std::string &payeeOrg);
 
+    bool operator==(const Payment &rhs) const;
+
+    bool operator!=(const Payment &rhs) const;
+
+    bool operator<(const Payment &rhs) const;
+
+    bool operator>(const Payment &rhs) const;
+
+    bool operator<=(const Payment &rhs) const;
+
+    bool operator>=(const Payment &rhs) const;
+
+    friend std::ostream &operator<<(std::ostream &os, const Payment &payment);
+
+    friend std::istream &operator>>(std::istream &input, Payment &payment);
     ~Payment();
 };
 
