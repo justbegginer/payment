@@ -12,9 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7788822-70b4-4482-9526-d354a91da806" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Payment.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Payment.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array.h" beforeDir="false" afterPath="$PROJECT_DIR$/Array.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607849769402</updated>
       <workItem from="1607849770921" duration="484000" />
-      <workItem from="1607850295108" duration="1179000" />
+      <workItem from="1607850295108" duration="2365000" />
     </task>
     <task id="LOCAL-00001" summary="make Array class">
       <created>1607850786208</created>
@@ -76,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607850786208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="make Array class like template">
+      <created>1607851527581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607851527581</updated>
+    </task>
+    <task id="LOCAL-00003" summary="template class realised and work correct">
+      <created>1607852659078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607852659078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,17 +100,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="make Array class" />
-    <option name="LAST_COMMIT_MESSAGE" value="make Array class" />
+    <MESSAGE value="make Array class like template" />
+    <MESSAGE value="template class realised and work correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="template class realised and work correct" />
   </component>
   <component name="WindowStateProjectService">
     <state x="731" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607850747469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607850747469" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1607850785783">
+    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1607852546823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607850785783" />
+    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607852546823" />
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1607852658551">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607852658551" />
     <state x="838" y="417" key="Github.ShareDialog" timestamp="1607850616743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -103,5 +125,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607850624228" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607851988003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607851988003" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607851988002">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607851988002" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607851988002">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607851988002" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607851988003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607851988003" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607851866493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607851866493" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607851866493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607851866493" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607851866493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607851866493" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607851866493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607851866493" />
   </component>
 </project>
