@@ -67,15 +67,15 @@ public:
 
     friend std::istream &operator>>(std::istream &input, Payment &payment);
 
-    Payment operator=(Payment payment);
+    Payment& operator=(Payment payment);
 
     Payment &operator++(); // префикс версия
 
     Payment &operator--(); // префикс версия
 
-    friend Payment operator++(Payment payment, int); // постфикс версия
+    friend Payment operator++(Payment& payment, int); // постфикс версия
 
-    friend Payment operator--(Payment payment, int); // постфикс версия
+    friend Payment operator--(Payment& payment, int); // постфикс версия
 
     ~Payment();
 

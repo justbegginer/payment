@@ -134,33 +134,34 @@ Payment operator-(Payment payment, float rhs) {
     return new_payment;
 }
 
-Payment Payment::operator=(Payment payment) {
+Payment& Payment::operator=(Payment payment) {
     sum = payment.sum;
     payer_account = payment.payer_account;
     payer_org = payment.payer_org;
     payee_account = payment.payee_account;
     payee_org = payment.payee_org;
+    return *this;
 }
 
 Payment &Payment::operator++() {
-    *this = *this + 1;
-    return *this;
+    this->sum++;
+    return *(this);
 }
 
 Payment &Payment::operator--() {
-    *this = *this - 1;
-    return *this;
+    this->sum--;
+    return *(this);
 }
 
-Payment operator++(Payment payment, int) {
+Payment operator++(Payment &payment, int) {
     Payment new_payment = Payment(payment);
-    payment = payment + 1;
+    payment.sum++;
     return new_payment;
 }
 
-Payment operator--(Payment payment, int) {
+Payment operator--(Payment &payment, int) {
     Payment new_payment = Payment(payment);
-    payment = payment - 1;
+    payment.sum--;
     return new_payment;
 }
 
