@@ -12,8 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7788822-70b4-4482-9526-d354a91da806" name="Default Changelist" comment="add equality , relaton">
+      <change afterPath="$PROJECT_DIR$/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/table" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Array.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Array.h" beforeDir="false" afterPath="$PROJECT_DIR$/Array.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Payment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Payment.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../udin7" />
   </component>
   <component name="RunManager">
     <configuration name="payment" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="payment" TARGET_NAME="payment" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="payment" RUN_TARGET_NAME="payment">
@@ -60,6 +64,11 @@
       <workItem from="1607850295108" duration="6940000" />
       <workItem from="1607864656214" duration="7585000" />
       <workItem from="1607876809893" duration="64000" />
+      <workItem from="1607894188882" duration="40000" />
+      <workItem from="1607931963477" duration="3881000" />
+      <workItem from="1607946222184" duration="2287000" />
+      <workItem from="1607963469256" duration="2976000" />
+      <workItem from="1607966639060" duration="5915000" />
     </task>
     <task id="LOCAL-00001" summary="make Array class">
       <created>1607850786208</created>
@@ -131,7 +140,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607876870204</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add equality , relaton">
+      <created>1607894215490</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607894215490</updated>
+    </task>
+    <task id="LOCAL-00012" summary="format code , add ,make empty array = nulptr , add index checker , fix push_buck func">
+      <created>1607936687010</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607936687010</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix ++ and -- funcs - add &amp; for payment arg , fix = operator , add forgotten return">
+      <created>1607936818249</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607936818249</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,25 +178,32 @@
     <MESSAGE value="make realisation of base and copy constructors for Payment class" />
     <MESSAGE value="change make bigger method" />
     <MESSAGE value="add increment and decrement , = operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="add increment and decrement , = operators" />
+    <MESSAGE value="add equality , relaton" />
+    <MESSAGE value="format code , add ,make empty array = nulptr , add index checker , fix push_buck func" />
+    <MESSAGE value="fix ++ and -- funcs - add &amp; for payment arg , fix = operator , add forgotten return" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix ++ and -- funcs - add &amp; for payment arg , fix = operator , add forgotten return" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="731" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607850747469">
+    <state x="731" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607946880060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607850747469" />
+    <state x="731" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607946880060" />
     <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1607865759866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607865759866" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1607876869606">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1607936817748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607876869606" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607936817748" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1607854867019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607854867019" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1607934696862">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607934696862" />
     <state x="838" y="417" key="Github.ShareDialog" timestamp="1607850616743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,55 +212,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607850624228" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1607873169303">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1607975113365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1607873169303">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607975113365" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1607975113365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1607873169303">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607975113365" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1607975113365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1607873169303">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607975113365" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1607975113365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607873169303">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607975113365" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607975113365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607873169303">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607975113365" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607975113365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607873169303">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607975113365" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607975113365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607873169303">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607975113365" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607975113365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607873169303" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607859799537">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607975113365" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607894219126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607859799537" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607894219126" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Array.h</url>
-          <line>50</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>7</line>
-          <option name="timeStamp" value="4" />
+          <line>23</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -22,12 +22,16 @@ public:
 
     ~Array();
 
-    void push_back(T &new_element);
+    void push_back(T new_element);
+
+    void sort();
+
+    T max();
 
     int get_length();
 
     T &operator[](int index);
-   // friend std::ostream &operator<<(std::ostream &os, const Array<T> &array);
+    // friend std::ostream &operator<<(std::ostream &os, const Array<T> &array);
 };
 
 template<typename T>
@@ -48,9 +52,9 @@ Array<T>::~Array() {
 }
 
 template<typename T>
-void Array<T>::push_back(T &new_element) {
+void Array<T>::push_back(T new_element) {
     make_bigger();
-    *(array+length-1) = new_element;
+    *(array + length - 1) = new_element;
 }
 
 template<typename T>
@@ -73,6 +77,31 @@ void Array<T>::make_bigger() {
     }
     length++;
     array = new_array;
+}
+
+template<typename T>
+void Array<T>::sort() {
+    for (int i = 1; i < length; ++i) {
+        for (int j = i - 1; j >= 0; --j) {
+            if ((*(array + j ) >= *(array + i)) || (i == 0 && *(array + i) < *(array+j))) {
+                auto item = *(array + j );
+                *(array + j ) = *(array + i);
+                *(array + i) = item;
+                break;
+            }
+        }
+    }
+}
+
+template<typename T>
+T Array<T>::max() {
+    T max = *(array);
+    for (int i = 1; i < length; ++i) {
+        if (max < *(array + i)){
+            max = *(array +i);
+        }
+    }
+    return max;
 }
 
 
